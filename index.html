@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#173c34"><title>PD Warriors 2027 · Document Verification</title>
-<link rel="stylesheet" href="styles.css?v=9">
+<link rel="stylesheet" href="styles.css?v=10">
 </head>
 <body>
 <header class="top"><div><p>PARKINSON'S DISEASE WARRIORS PHILIPPINES</p><h1>Document Verification</h1><span>GET TOGETHER 2027</span><span class="newTag">NEW FEATURES ADDED</span><span class="draftTag">DRAFT LIST · NOT YET FINAL</span></div><div class="statusStack"><div id="net" class="net">ONLINE</div><div id="syncCount" class="net newFeature">LOCAL DEVICE</div></div></header>
@@ -17,14 +17,14 @@
 </section>
 <section class="toolbar">
 <label class="search"><span>Search attendee</span><input id="search" placeholder="Name, nickname, mobile or pass no." autocomplete="off"></label>
-<div class="importRow newFeature"><label class="fileLabel">IMPORT EXCEL / CSV <input id="importFile" type="file" accept=".csv,.xlsx,.xls"></label><button id="backupBtn">BACKUP</button><label class="fileLabel">RESTORE <input id="restoreFile" type="file" accept=".json"></label><button id="exportBtn">EXPORT REPORT</button></div><div class="filters" id="filters"><button data-filter="ALL" class="active">ALL</button><button data-filter="PENDING">PENDING</button><button data-filter="VERIFIED">VERIFIED</button><button data-filter="REVIEW">NEEDS REVIEW</button><button data-filter="INCOMPLETE">INCOMPLETE</button></div>
+<div class="importRow newFeature"><label class="fileLabel">IMPORT EXCEL / CSV <input id="importFile" type="file" accept=".csv,.xlsx,.xls"></label><button id="backupBtn">BACKUP</button><label class="fileLabel">RESTORE <input id="restoreFile" type="file" accept=".json"></label><button id="exportBtn">EXPORT REPORT</button><button id="removeSamplesBtn">REMOVE SAMPLE DATA</button></div><div class="filters" id="filters"><button data-filter="ALL" class="active">ALL</button><button data-filter="PENDING">PENDING</button><button data-filter="VERIFIED">VERIFIED</button><button data-filter="REVIEW">NEEDS REVIEW</button><button data-filter="INCOMPLETE">INCOMPLETE</button></div>
 </section>
 <section class="panel">
-<div class="panelHead"><div><p class="eyebrow">ATTENDEE RECORDS</p><h2>Verification queue</h2></div><div class="headActions newFeature"><button id="finalRosterBtn">LOCK FINAL ROSTER</button><button id="activityBtn">ACTIVITY</button><button id="walkinBtn">+ WALK-IN</button><button id="addBtn" class="primary">+ ADD ATTENDEE</button></div></div>
+<div class="panelHead"><div><p class="eyebrow">ATTENDEE RECORDS</p><h2>Verification queue</h2></div><div class="headActions newFeature"><button id="viewAllBtn">VIEW ALL</button><button id="duplicatesBtn">DUPLICATES</button><button id="finalRosterBtn">LOCK FINAL ROSTER</button><button id="activityBtn">ACTIVITY</button><button id="walkinBtn">+ WALK-IN</button><button id="addBtn" class="primary">+ ADD ATTENDEE</button></div></div>
 <div id="list" class="list"></div>
 </section>
 </main>
 <dialog id="dlg"><form method="dialog" class="modal"><button class="close" value="cancel" aria-label="Close">×</button><div id="modalBody"></div></form></dialog>
 <footer>Protected verification workspace · Sensitive document images stay on this device in this first static build.</footer>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><script src="app.js?v=9"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><script src="app.js?v=10"></script>
 </body></html>
