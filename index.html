@@ -3,12 +3,18 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#173c34"><title>PD Warriors 2027 · Document Verification</title>
-<link rel="stylesheet" href="styles.css?v=4">
+<link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
 <header class="top"><div><p>PARKINSON'S DISEASE WARRIORS PHILIPPINES</p><h1>Document Verification</h1><span>GET TOGETHER 2027</span><span class="newTag">NEW FEATURES ADDED</span></div><div class="statusStack"><div id="net" class="net">ONLINE</div><div id="syncCount" class="net newFeature">0 PENDING SYNC</div></div></header>
 <main>
-<section class="stats" id="stats"></section>
+<section class="stats" id="stats" aria-label="Verification totals">
+<div class="stat"><b id="countTotal">0</b><span>TOTAL</span></div>
+<div class="stat"><b id="countPending">0</b><span>PENDING</span></div>
+<div class="stat"><b id="countVerified">0</b><span>VERIFIED</span></div>
+<div class="stat"><b id="countReview">0</b><span>NEEDS REVIEW</span></div>
+<div class="stat"><b id="countIncomplete">0</b><span>INCOMPLETE</span></div>
+</section>
 <section class="toolbar">
 <label class="search"><span>Search attendee</span><input id="search" placeholder="Name, nickname, mobile or pass no." autocomplete="off"></label>
 <div class="importRow newFeature"><label class="fileLabel">IMPORT EXCEL / CSV <input id="importFile" type="file" accept=".csv,.xlsx,.xls"></label><button id="backupBtn">BACKUP</button><label class="fileLabel">RESTORE <input id="restoreFile" type="file" accept=".json"></label><button id="exportBtn">EXPORT REPORT</button></div><div class="filters" id="filters"><button data-filter="ALL" class="active">ALL</button><button data-filter="PENDING">PENDING</button><button data-filter="VERIFIED">VERIFIED</button><button data-filter="REVIEW">NEEDS REVIEW</button><button data-filter="INCOMPLETE">INCOMPLETE</button></div>
@@ -20,5 +26,5 @@
 </main>
 <dialog id="dlg"><form method="dialog" class="modal"><button class="close" value="cancel" aria-label="Close">×</button><div id="modalBody"></div></form></dialog>
 <footer>Protected verification workspace · Sensitive document images stay on this device in this first static build.</footer>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><script src="app.js?v=4"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><script src="app.js?v=5"></script>
 </body></html>
