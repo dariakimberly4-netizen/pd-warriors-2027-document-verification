@@ -21,3 +21,10 @@
 #stats .stat b{display:block!important;font-size:30px!important;line-height:1!important;color:#173c34!important}
 #stats .stat span{display:block!important;margin-top:8px!important;font-size:11px!important;font-weight:900!important;letter-spacing:.06em!important}
 @media(max-width:700px){#stats.stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}#stats .stat:first-child{grid-column:1/-1!important}}
+
+/* BUILD 6 — ROSTER + EVENT-DAY RECORD MANAGEMENT */
+.draftTag{display:inline-block!important;width:max-content;margin-top:7px!important;background:#fff3c8!important;color:#6b5311!important;border:1px solid #d7b95e;padding:5px 9px!important;border-radius:999px;font-size:10px!important;font-weight:950;letter-spacing:.05em}
+.headActions{display:flex;gap:7px;padding:4px;border-radius:12px}.headActions>button:first-child{background:#efe8d8;color:#173c34}
+.personTools{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.personTools button{min-height:36px;padding:6px 9px;font-size:12px}.clearBadge{background:#cfe8d8!important;color:#145a35!important}.typeBadge{background:#e8e0ca!important;color:#5b4820!important}.walkBadge{background:#e5e9f4!important;color:#34466f!important}
+.notes{width:100%;min-height:78px;border:1px solid #bdb7aa;border-radius:10px;padding:9px;font:inherit}.docActions .remove{background:#eee5e2;color:#71342d}.activityPanel{margin-top:12px;padding:12px;background:#f5f2e9;border-radius:12px}.activityPanel h3{margin:0 0 8px}.headActions.newFeature::after{right:-3px}
+@media(max-width:700px){.headActions{width:100%;display:grid;grid-template-columns:1fr 1fr}.headActions button{width:100%}}
